@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/rohan/Desktop/Capstone/Capstone.sch</source>
+    <date>Thursday, November 02, 2017 'PMt' 11:16:15 PM</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Capstone.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Demux1ToMotor1/" tstamps="/59EE945F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Demux1ToMotor1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Demux2ToMotor2/" tstamps="/59EE9901/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Demux2ToMotor2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Demux3ToMotor3/" tstamps="/59EE992E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Demux3ToMotor3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Demux4ToMotor4/" tstamps="/59EE995B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Demux4ToMotor4.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Demux5ToMotor5/" tstamps="/59EE9B02/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Demux5ToMotor5.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Demux0ToMotor0/" tstamps="/59EA5881/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DemuxToMotor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/HBridge_0/" tstamps="/59ED82C2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HBridge.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/HBridge_1/" tstamps="/59F1EF67/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HBridge_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/HBridge_2/" tstamps="/59F39942/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HBridge_2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>CONN_02X15</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x15</footprint>
+      <libsource lib="conn" part="CONN_02X15"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F97D37</tstamp>
+    </comp>
+    <comp ref="P52">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FACB4E</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F8AD3C</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F8B9CD</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F8BA0A</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F8BA6F</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F8BAAF</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F8BAEF</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F8BB30</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F8BBBA</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>C0_M1</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F9EDA0</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>C1_M1</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F9EE0B</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>C2_M1</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F9EEDB</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>C3_M1</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F9EEE1</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>C4_M1</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F9EFB8</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>C5_M1</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F9EFBE</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>C6_M1</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F9EFC4</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>C7_M1</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59F9EFCA</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MAX4617</value>
+      <footprint>CustomParts:16PDIP_Socket</footprint>
+      <libsource lib="max4617" part="MAX4617"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59FBD91B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Demux1ToMotor1/" tstamps="/59EE945F/"/>
+      <tstamp>59FC271A</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F8C2FB</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F8C40E</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F8C460</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F8C46C</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F8C5B0</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F8C5BC</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F8C5C8</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F8C5D4</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>C0_M2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F9FCD6</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>C1_M2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F9FD48</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>C2_M2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F9FDEA</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>C3_M2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F9FDF0</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>C4_M2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F9FED8</tstamp>
+    </comp>
+    <comp ref="P15">
+      <value>C5_M2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F9FEDE</tstamp>
+    </comp>
+    <comp ref="P16">
+      <value>C6_M2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F9FEE4</tstamp>
+    </comp>
+    <comp ref="P17">
+      <value>C7_M2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59F9FEEA</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MAX4617</value>
+      <footprint>CustomParts:16PDIP_Socket</footprint>
+      <libsource lib="max4617" part="MAX4617"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59FBE6F8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Demux2ToMotor2/" tstamps="/59EE9901/"/>
+      <tstamp>59FC2BE0</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59F8D56D</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59F8D653</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59F8D6BD</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59F8D6C9</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59F8D859</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59F8D865</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59F8D871</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59F8D87D</tstamp>
+    </comp>
+    <comp ref="P18">
+      <value>C0_M3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59FA0A4A</tstamp>
+    </comp>
+    <comp ref="P19">
+      <value>C1_M3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59FA0ACA</tstamp>
+    </comp>
+    <comp ref="P20">
+      <value>C2_M3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59FA0B24</tstamp>
+    </comp>
+    <comp ref="P21">
+      <value>C3_M3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59FA0BFF</tstamp>
+    </comp>
+    <comp ref="P22">
+      <value>C4_M3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59FA0D22</tstamp>
+    </comp>
+    <comp ref="P23">
+      <value>C5_M3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59FA0D28</tstamp>
+    </comp>
+    <comp ref="P24">
+      <value>C6_M3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59FA0D2E</tstamp>
+    </comp>
+    <comp ref="P25">
+      <value>C7_M3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59FA0D34</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MAX4617</value>
+      <footprint>CustomParts:16PDIP_Socket</footprint>
+      <libsource lib="max4617" part="MAX4617"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59FBEC82</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Demux3ToMotor3/" tstamps="/59EE992E/"/>
+      <tstamp>59FC343A</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59F8E8DD</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59F8EA0D</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59F8EA48</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59F8EA97</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59F8EB3F</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59F8EB7E</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59F8EBC1</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59F8EC03</tstamp>
+    </comp>
+    <comp ref="P26">
+      <value>C0_M4</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59FA1C5C</tstamp>
+    </comp>
+    <comp ref="P27">
+      <value>C1_M4</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59FA1D4A</tstamp>
+    </comp>
+    <comp ref="P28">
+      <value>C2_M4</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59FA1DE4</tstamp>
+    </comp>
+    <comp ref="P29">
+      <value>C3_M4</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59FA1DEA</tstamp>
+    </comp>
+    <comp ref="P30">
+      <value>C4_M4</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59FA1ECE</tstamp>
+    </comp>
+    <comp ref="P31">
+      <value>C5_M4</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59FA1ED4</tstamp>
+    </comp>
+    <comp ref="P32">
+      <value>C6_M4</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59FA1EDA</tstamp>
+    </comp>
+    <comp ref="P33">
+      <value>C7_M4</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59FA1EE0</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MAX4617</value>
+      <footprint>CustomParts:16PDIP_Socket</footprint>
+      <libsource lib="max4617" part="MAX4617"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59FBF3A1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Demux4ToMotor4/" tstamps="/59EE995B/"/>
+      <tstamp>59FC4134</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59F9016F</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59F902E9</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59F90326</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59F90393</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59F903D3</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59F90415</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59F9049C</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59F904DE</tstamp>
+    </comp>
+    <comp ref="P34">
+      <value>C0_M5</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59FA2A1F</tstamp>
+    </comp>
+    <comp ref="P35">
+      <value>C1_M5</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59FA2B2B</tstamp>
+    </comp>
+    <comp ref="P36">
+      <value>C2_M5</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59FA2C16</tstamp>
+    </comp>
+    <comp ref="P37">
+      <value>C3_M5</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59FA2C1C</tstamp>
+    </comp>
+    <comp ref="P38">
+      <value>C4_M5</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59FA2DD9</tstamp>
+    </comp>
+    <comp ref="P39">
+      <value>C5_M5</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59FA2DDF</tstamp>
+    </comp>
+    <comp ref="P40">
+      <value>C6_M5</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59FA2DE5</tstamp>
+    </comp>
+    <comp ref="P41">
+      <value>C7_M5</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59FA2DEB</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MAX4617</value>
+      <footprint>CustomParts:16PDIP_Socket</footprint>
+      <libsource lib="max4617" part="MAX4617"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59FBF8EB</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Demux5ToMotor5/" tstamps="/59EE9B02/"/>
+      <tstamp>59FC4B5F</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F8A33A</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F8A7EB</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F8A826</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F8A8AC</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F8A8EE</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F8A973</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F8A9B9</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F8A9FF</tstamp>
+    </comp>
+    <comp ref="P43">
+      <value>C1_M0</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F9E02E</tstamp>
+    </comp>
+    <comp ref="P44">
+      <value>C2_M0</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F9E13C</tstamp>
+    </comp>
+    <comp ref="P45">
+      <value>C3_M0</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F9E142</tstamp>
+    </comp>
+    <comp ref="P46">
+      <value>C4_M0</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F9E20E</tstamp>
+    </comp>
+    <comp ref="P47">
+      <value>C5_M0</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F9E214</tstamp>
+    </comp>
+    <comp ref="P48">
+      <value>C6_M0</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F9E21A</tstamp>
+    </comp>
+    <comp ref="P49">
+      <value>C7_M0</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F9E220</tstamp>
+    </comp>
+    <comp ref="P42">
+      <value>C0_M0</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59F9DFB1</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MAX4617</value>
+      <footprint>CustomParts:16PDIP_Socket</footprint>
+      <libsource lib="max4617" part="MAX4617"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59FB3CC1</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Demux0ToMotor0/" tstamps="/59EA5881/"/>
+      <tstamp>59FC203F</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>L293D</value>
+      <footprint>CustomParts:L293D_PDIP16</footprint>
+      <libsource lib="l293d" part="L293D"/>
+      <sheetpath names="/HBridge_0/" tstamps="/59ED82C2/"/>
+      <tstamp>59EFF182</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HBridge_0/" tstamps="/59ED82C2/"/>
+      <tstamp>59FC0FF6</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HBridge_0/" tstamps="/59ED82C2/"/>
+      <tstamp>59FC102C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_0/" tstamps="/59ED82C2/"/>
+      <tstamp>59FBE2C6</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_0/" tstamps="/59ED82C2/"/>
+      <tstamp>59FBE35D</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_0/" tstamps="/59ED82C2/"/>
+      <tstamp>59FBE40C</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_0/" tstamps="/59ED82C2/"/>
+      <tstamp>59FBE446</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>L293D</value>
+      <footprint>CustomParts:L293D_PDIP16</footprint>
+      <libsource lib="l293d" part="L293D"/>
+      <sheetpath names="/HBridge_1/" tstamps="/59F1EF67/"/>
+      <tstamp>59F200F7</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uf</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HBridge_1/" tstamps="/59F1EF67/"/>
+      <tstamp>59FC0BB1</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>10uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HBridge_1/" tstamps="/59F1EF67/"/>
+      <tstamp>59FC0C04</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_1/" tstamps="/59F1EF67/"/>
+      <tstamp>59FBE6CC</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_1/" tstamps="/59F1EF67/"/>
+      <tstamp>59FBE734</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_1/" tstamps="/59F1EF67/"/>
+      <tstamp>59FBE772</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_1/" tstamps="/59F1EF67/"/>
+      <tstamp>59FBE7B6</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>L293D</value>
+      <footprint>CustomParts:L293D_PDIP16</footprint>
+      <libsource lib="l293d" part="L293D"/>
+      <sheetpath names="/HBridge_2/" tstamps="/59F39942/"/>
+      <tstamp>59F3AC65</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HBridge_2/" tstamps="/59F39942/"/>
+      <tstamp>59FC153F</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>10uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/HBridge_2/" tstamps="/59F39942/"/>
+      <tstamp>59FC1570</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_2/" tstamps="/59F39942/"/>
+      <tstamp>59FBEA57</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_2/" tstamps="/59F39942/"/>
+      <tstamp>59FBEAC6</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_2/" tstamps="/59F39942/"/>
+      <tstamp>59FBEAEE</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/HBridge_2/" tstamps="/59F39942/"/>
+      <tstamp>59FBEB30</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X15">
+      <description>Connector, double row, 02x15</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X15</fp>
+        <fp>Pin_Header_Angled_2X15</fp>
+        <fp>Socket_Strip_Straight_2X15</fp>
+        <fp>Socket_Strip_Angled_2X15</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+        <pin num="29" name="P29" type="passive"/>
+        <pin num="30" name="P30" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="l293d" part="L293D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L293D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ENABLE_1" type="input"/>
+        <pin num="2" name="INPUT_1" type="input"/>
+        <pin num="3" name="OUTPUT_1" type="output"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="OUTPUT_2" type="output"/>
+        <pin num="7" name="INPUT_2" type="input"/>
+        <pin num="8" name="Vs" type="input"/>
+        <pin num="9" name="ENABLE_2" type="input"/>
+        <pin num="10" name="INPUT_3" type="input"/>
+        <pin num="11" name="OUTPUT_3" type="output"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="GND" type="input"/>
+        <pin num="14" name="OUTPUT_4" type="output"/>
+        <pin num="15" name="INPUT_4" type="input"/>
+        <pin num="16" name="Vss" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="max4617" part="MAX4617">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX4617</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X4" type="BiDi"/>
+        <pin num="2" name="X6" type="BiDi"/>
+        <pin num="3" name="X" type="BiDi"/>
+        <pin num="4" name="X7" type="BiDi"/>
+        <pin num="5" name="X5" type="BiDi"/>
+        <pin num="6" name="E" type="input"/>
+        <pin num="7" name="n.c" type="NotConnected"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="C" type="input"/>
+        <pin num="10" name="B" type="input"/>
+        <pin num="11" name="A" type="input"/>
+        <pin num="12" name="X3" type="BiDi"/>
+        <pin num="13" name="X0" type="BiDi"/>
+        <pin num="14" name="X1" type="BiDi"/>
+        <pin num="15" name="X2" type="BiDi"/>
+        <pin num="16" name="Vcc" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="max4617">
+      <uri>/Users/rohan/Desktop/Capstone/max4617.lib</uri>
+    </library>
+    <library logical="l293d">
+      <uri>/Users/rohan/Desktop/Capstone/l293d.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="ENABLE_M4">
+      <node ref="U4" pin="6"/>
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="2" name="ENABLE_M5">
+      <node ref="P1" pin="11"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="3" name="/Demux2ToMotor2/M2_V+">
+      <node ref="C11" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="P14" pin="1"/>
+      <node ref="P15" pin="1"/>
+      <node ref="P13" pin="1"/>
+      <node ref="P16" pin="1"/>
+      <node ref="P17" pin="1"/>
+      <node ref="P12" pin="1"/>
+      <node ref="P11" pin="1"/>
+      <node ref="P10" pin="1"/>
+    </net>
+    <net code="4" name="/Demux3ToMotor3/M3_V+">
+      <node ref="C14" pin="1"/>
+      <node ref="P18" pin="1"/>
+      <node ref="P19" pin="1"/>
+      <node ref="P20" pin="1"/>
+      <node ref="P21" pin="1"/>
+      <node ref="P22" pin="1"/>
+      <node ref="P23" pin="1"/>
+      <node ref="P24" pin="1"/>
+      <node ref="P25" pin="1"/>
+      <node ref="U8" pin="11"/>
+    </net>
+    <net code="5" name="/Demux3ToMotor3/M3_V-">
+      <node ref="U3" pin="3"/>
+      <node ref="U8" pin="14"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="6" name="/Demux2ToMotor2/M2_V-">
+      <node ref="U2" pin="3"/>
+      <node ref="U8" pin="6"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="7" name="/Demux1ToMotor1/M1_V-">
+      <node ref="U1" pin="3"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="8" name="/Demux1ToMotor1/M1_V+">
+      <node ref="P3" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="U7" pin="11"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P8" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="P9" pin="1"/>
+    </net>
+    <net code="9" name="/Demux0ToMotor0/M0_V-">
+      <node ref="C7" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="10" name="/Demux0ToMotor0/M0_V+">
+      <node ref="P42" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="P43" pin="1"/>
+      <node ref="P44" pin="1"/>
+      <node ref="P45" pin="1"/>
+      <node ref="P46" pin="1"/>
+      <node ref="P47" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="P49" pin="1"/>
+      <node ref="P48" pin="1"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="R49" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U7" pin="12"/>
+      <node ref="R48" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="R60" pin="2"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="R47" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="R41" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R22" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="R35" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R44" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R43" pin="2"/>
+      <node ref="R42" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U8" pin="13"/>
+      <node ref="U8" pin="12"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U8" pin="4"/>
+      <node ref="C23" pin="2"/>
+      <node ref="R51" pin="2"/>
+      <node ref="R65" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="P1" pin="29"/>
+      <node ref="P1" pin="19"/>
+      <node ref="P1" pin="28"/>
+      <node ref="P1" pin="27"/>
+      <node ref="P1" pin="26"/>
+      <node ref="P1" pin="25"/>
+      <node ref="U9" pin="13"/>
+      <node ref="P1" pin="23"/>
+      <node ref="U9" pin="12"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U9" pin="4"/>
+      <node ref="P1" pin="30"/>
+      <node ref="P1" pin="21"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="P52" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R50" pin="2"/>
+      <node ref="R54" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="R53" pin="2"/>
+      <node ref="R59" pin="2"/>
+      <node ref="R58" pin="2"/>
+      <node ref="R45" pin="2"/>
+      <node ref="R56" pin="2"/>
+      <node ref="R57" pin="2"/>
+      <node ref="R55" pin="2"/>
+      <node ref="R62" pin="2"/>
+      <node ref="R52" pin="2"/>
+      <node ref="R63" pin="2"/>
+      <node ref="R64" pin="2"/>
+      <node ref="R61" pin="2"/>
+    </net>
+    <net code="12" name="Vcc">
+      <node ref="C19" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U2" pin="16"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P52" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U9" pin="16"/>
+      <node ref="U9" pin="9"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U8" pin="9"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U7" pin="16"/>
+      <node ref="U6" pin="16"/>
+      <node ref="U8" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U7" pin="9"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U8" pin="16"/>
+    </net>
+    <net code="13" name="ENABLE_M3">
+      <node ref="U3" pin="6"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="14" name="ENABLE_M2">
+      <node ref="P1" pin="5"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="15" name="ENABLE_M1">
+      <node ref="U1" pin="6"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="16" name="ENABLE_M0">
+      <node ref="P1" pin="1"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="17" name="CONTROL_C">
+      <node ref="U5" pin="9"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U2" pin="9"/>
+      <node ref="P1" pin="17"/>
+    </net>
+    <net code="18" name="CONTROL_B">
+      <node ref="U2" pin="10"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U4" pin="10"/>
+      <node ref="P1" pin="15"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="19" name="CONTROL_A">
+      <node ref="U4" pin="11"/>
+      <node ref="U6" pin="11"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U5" pin="11"/>
+      <node ref="P1" pin="13"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="20" name="M3_S1">
+      <node ref="U8" pin="10"/>
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="21" name="M0_S2">
+      <node ref="P1" pin="22"/>
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="22" name="M2_S2">
+      <node ref="P1" pin="14"/>
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="23" name="M0_S1">
+      <node ref="P1" pin="24"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="24" name="M2_S1">
+      <node ref="U8" pin="2"/>
+      <node ref="P1" pin="16"/>
+    </net>
+    <net code="25" name="M1_S2">
+      <node ref="P1" pin="18"/>
+      <node ref="U7" pin="15"/>
+    </net>
+    <net code="26" name="M4_S1">
+      <node ref="P1" pin="8"/>
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="27" name="/Demux5ToMotor5/M5_V+">
+      <node ref="U9" pin="11"/>
+      <node ref="P36" pin="1"/>
+      <node ref="P37" pin="1"/>
+      <node ref="P35" pin="1"/>
+      <node ref="P34" pin="1"/>
+      <node ref="P38" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="P39" pin="1"/>
+      <node ref="P40" pin="1"/>
+      <node ref="P41" pin="1"/>
+    </net>
+    <net code="28" name="/Demux5ToMotor5/M5_V-">
+      <node ref="C17" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U9" pin="14"/>
+    </net>
+    <net code="29" name="/Demux4ToMotor4/M4_V-">
+      <node ref="U4" pin="3"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="30" name="/Demux4ToMotor4/M4_V+">
+      <node ref="U9" pin="3"/>
+      <node ref="P26" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="P27" pin="1"/>
+      <node ref="P28" pin="1"/>
+      <node ref="P29" pin="1"/>
+      <node ref="P30" pin="1"/>
+      <node ref="P31" pin="1"/>
+      <node ref="P32" pin="1"/>
+      <node ref="P33" pin="1"/>
+    </net>
+    <net code="31" name="M1_S1">
+      <node ref="P1" pin="20"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="32" name="M3_S2">
+      <node ref="P1" pin="10"/>
+      <node ref="U8" pin="15"/>
+    </net>
+    <net code="33" name="M4_S2">
+      <node ref="P1" pin="6"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="34" name="M5_S1">
+      <node ref="U9" pin="10"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="35" name="M5_S2">
+      <node ref="P1" pin="2"/>
+      <node ref="U9" pin="15"/>
+    </net>
+    <net code="36" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="37" name="/Demux0ToMotor0/C5_M0_V-">
+      <node ref="R63" pin="1"/>
+      <node ref="P47" pin="2"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="38" name="/Demux0ToMotor0/C6_M0_V-">
+      <node ref="R64" pin="1"/>
+      <node ref="P48" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="39" name="/Demux0ToMotor0/C7_M0_V-">
+      <node ref="R65" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="P49" pin="2"/>
+    </net>
+    <net code="40" name="/Demux0ToMotor0/C1_M0_V-">
+      <node ref="U6" pin="14"/>
+      <node ref="R59" pin="1"/>
+      <node ref="P43" pin="2"/>
+    </net>
+    <net code="41" name="/Demux0ToMotor0/C2_M0_V-">
+      <node ref="P44" pin="2"/>
+      <node ref="U6" pin="15"/>
+      <node ref="R60" pin="1"/>
+    </net>
+    <net code="42" name="/Demux0ToMotor0/C3_M0_V-">
+      <node ref="U6" pin="12"/>
+      <node ref="P45" pin="2"/>
+      <node ref="R61" pin="1"/>
+    </net>
+    <net code="43" name="/Demux0ToMotor0/C4_M0_V-">
+      <node ref="R62" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="P46" pin="2"/>
+    </net>
+    <net code="44" name="/Demux0ToMotor0/C0_M0_V-">
+      <node ref="P42" pin="2"/>
+      <node ref="R58" pin="1"/>
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="46" name="/Demux1ToMotor1/C1_M1_V-">
+      <node ref="R19" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="47" name="/Demux1ToMotor1/C2_M1_V-">
+      <node ref="U1" pin="15"/>
+      <node ref="P4" pin="2"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="48" name="/Demux1ToMotor1/C4_M1_V-">
+      <node ref="U1" pin="1"/>
+      <node ref="P6" pin="2"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="49" name="/Demux1ToMotor1/C6_M1_V-">
+      <node ref="P8" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="50" name="/Demux1ToMotor1/C7_M1_V-">
+      <node ref="U1" pin="4"/>
+      <node ref="P9" pin="2"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="51" name="/Demux1ToMotor1/C5_M1_V-">
+      <node ref="R23" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="P7" pin="2"/>
+    </net>
+    <net code="52" name="/Demux1ToMotor1/C0_M1_V-">
+      <node ref="U1" pin="13"/>
+      <node ref="P2" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="53" name="/Demux1ToMotor1/C3_M1_V-">
+      <node ref="U1" pin="12"/>
+      <node ref="R21" pin="1"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="55" name="/Demux2ToMotor2/C0_M2_V-">
+      <node ref="R26" pin="1"/>
+      <node ref="U2" pin="13"/>
+      <node ref="P10" pin="2"/>
+    </net>
+    <net code="56" name="/Demux2ToMotor2/C7_M2_V-">
+      <node ref="R33" pin="1"/>
+      <node ref="P17" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="57" name="/Demux2ToMotor2/C6_M2_V-">
+      <node ref="R32" pin="1"/>
+      <node ref="P16" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="58" name="/Demux2ToMotor2/C5_M2_V-">
+      <node ref="R31" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="P15" pin="2"/>
+    </net>
+    <net code="59" name="/Demux2ToMotor2/C4_M2_V-">
+      <node ref="R30" pin="1"/>
+      <node ref="P14" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="60" name="/Demux2ToMotor2/C3_M2_V-">
+      <node ref="P13" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="61" name="/Demux2ToMotor2/C2_M2_V-">
+      <node ref="U2" pin="15"/>
+      <node ref="P12" pin="2"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="62" name="/Demux2ToMotor2/C1_M2_V-">
+      <node ref="U2" pin="14"/>
+      <node ref="P11" pin="2"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="63" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="64" name="/Demux3ToMotor3/C0_M3_V-">
+      <node ref="P18" pin="2"/>
+      <node ref="U3" pin="13"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="65" name="/Demux3ToMotor3/C3_M3_V-">
+      <node ref="U3" pin="12"/>
+      <node ref="P21" pin="2"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="66" name="/Demux3ToMotor3/C1_M3_V-">
+      <node ref="U3" pin="14"/>
+      <node ref="P19" pin="2"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="67" name="/Demux3ToMotor3/C2_M3_V-">
+      <node ref="P20" pin="2"/>
+      <node ref="U3" pin="15"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="68" name="/Demux3ToMotor3/C7_M3_V-">
+      <node ref="U3" pin="4"/>
+      <node ref="R41" pin="1"/>
+      <node ref="P25" pin="2"/>
+    </net>
+    <net code="69" name="/Demux3ToMotor3/C5_M3_V-">
+      <node ref="P23" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="70" name="/Demux3ToMotor3/C6_M3_V-">
+      <node ref="U3" pin="2"/>
+      <node ref="P24" pin="2"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="71" name="/Demux3ToMotor3/C4_M3_V-">
+      <node ref="R38" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="P22" pin="2"/>
+    </net>
+    <net code="72" name="/Demux4ToMotor4/C1_M4_V-">
+      <node ref="P27" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="73" name="/Demux4ToMotor4/C0_M4_V-">
+      <node ref="R42" pin="1"/>
+      <node ref="P26" pin="2"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="74" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="75" name="/Demux4ToMotor4/C5_M4_V-">
+      <node ref="P31" pin="2"/>
+      <node ref="R47" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="76" name="/Demux4ToMotor4/C4_M4_V-">
+      <node ref="R46" pin="1"/>
+      <node ref="P30" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="77" name="/Demux4ToMotor4/C3_M4_V-">
+      <node ref="R45" pin="1"/>
+      <node ref="U4" pin="12"/>
+      <node ref="P29" pin="2"/>
+    </net>
+    <net code="78" name="/Demux4ToMotor4/C2_M4_V-">
+      <node ref="R44" pin="1"/>
+      <node ref="P28" pin="2"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="79" name="/Demux4ToMotor4/C7_M4_V-">
+      <node ref="U4" pin="4"/>
+      <node ref="R49" pin="1"/>
+      <node ref="P33" pin="2"/>
+    </net>
+    <net code="80" name="/Demux4ToMotor4/C6_M4_V-">
+      <node ref="R48" pin="1"/>
+      <node ref="P32" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="81" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="82" name="/Demux5ToMotor5/C2_M5_V-">
+      <node ref="P36" pin="2"/>
+      <node ref="U5" pin="15"/>
+      <node ref="R52" pin="1"/>
+    </net>
+    <net code="83" name="/Demux5ToMotor5/C3_M5_V-">
+      <node ref="R53" pin="1"/>
+      <node ref="U5" pin="12"/>
+      <node ref="P37" pin="2"/>
+    </net>
+    <net code="84" name="/Demux5ToMotor5/C4_M5_V-">
+      <node ref="U5" pin="1"/>
+      <node ref="P38" pin="2"/>
+      <node ref="R54" pin="1"/>
+    </net>
+    <net code="85" name="/Demux5ToMotor5/C5_M5_V-">
+      <node ref="R55" pin="1"/>
+      <node ref="P39" pin="2"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="86" name="/Demux5ToMotor5/C6_M5_V-">
+      <node ref="P40" pin="2"/>
+      <node ref="R56" pin="1"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="87" name="/Demux5ToMotor5/C7_M5_V-">
+      <node ref="P41" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="R57" pin="1"/>
+    </net>
+    <net code="88" name="/Demux5ToMotor5/C1_M5_V-">
+      <node ref="U5" pin="14"/>
+      <node ref="P35" pin="2"/>
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="89" name="/Demux5ToMotor5/C0_M5_V-">
+      <node ref="U5" pin="13"/>
+      <node ref="P34" pin="2"/>
+      <node ref="R50" pin="1"/>
+    </net>
+  </nets>
+</export>

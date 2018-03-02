@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# DCMotor
+#
+DEF DCMotor M 0 40 Y Y 1 F N
+F0 "M" -600 200 60 H V C CNN
+F1 "DCMotor" -600 600 60 H V C CNN
+F2 "" -600 450 60 H I C CNN
+F3 "" -600 450 60 H I C CNN
+DRAW
+S -900 550 -300 250 0 1 0 N
+X V+ ~ -1100 450 200 R 50 50 1 1 I
+X V- ~ -1100 350 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
